@@ -111,8 +111,14 @@ footer .menu-bot {
   font-size: 1rem;
 }
 
-.menu-bot > div > i:not(.small-txt) {
+.side-menu > div > i:not(.small-txt) {
   font-size: 1.5rem;
+  padding-top: 10px;
+}
+
+.menu > div > i:not(.small-txt) {
+  font-size: 1.5rem;
+  padding-top: 10px;
 }
 
 .side-menu > div {
@@ -134,7 +140,7 @@ footer .menu-bot {
 
 .end-call p {
   font-weight: bold;
-  color: red;
+  color: crimson;
   background-color: #4A4A4A;
   padding: 20px;
   border-radius: 8px;
