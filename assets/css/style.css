@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
 }
 
 .container {
@@ -83,7 +84,7 @@ main {
   left: 0;
   padding: 2px 3px;
   color: white;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(31, 31, 31, 0.5);
 
 }
 
@@ -105,5 +106,14 @@ footer .menu-bot {
 }
 
 .menu > div {
-  padding: 0 10px 0 5px;
+  padding: 0 15px 0 5px;
+  
+}
+
+.menu > div > i {
+  font-size: 1.5rem;
+}
+
+.share-screen > i {
+  color: #4BC800;
 }
