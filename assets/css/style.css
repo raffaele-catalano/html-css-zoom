@@ -3,3 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/*  HEADER  */
+header .menu-top {
+  position: relative;
+  height: 70px;
+  background-color: crimson;
+}
+
+/*  MAIN  */
+main {
+  height: calc(100vh - 170px);
+  background-color: wheat;
+  overflow: auto;
+}
+
+
+/*  FOOTER  */
+footer .menu-bot {
+  height: 100px;
+  background-color: crimson;
+}
