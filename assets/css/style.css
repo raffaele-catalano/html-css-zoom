@@ -13,8 +13,8 @@ body {
   width: 90%;
   max-width: 1500px;
   margin: 0 auto;
-  /* padding-top: 30px;
-  padding-bottom: 30px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
   /* background-color: lightgreen; */
 }
 
@@ -107,7 +107,7 @@ footer .menu-bot {
 
 .menu > div {
   padding: 0 15px 0 5px;
-  
+
 }
 
 .menu > div > i {
@@ -116,4 +116,16 @@ footer .menu-bot {
 
 .share-screen > i {
   color: #4BC800;
+}
+
+.end-call {
+  margin-right: 10px;
+}
+
+.end-call p {
+  font-weight: bold;
+  color: red;
+  background-color: #4A4A4A;
+  padding: 20px;
+  border-radius: 8px;
 }
