@@ -12,8 +12,8 @@ body {
   width: 90%;
   max-width: 1500px;
   margin: 0 auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  /* padding-top: 30px;
+  padding-bottom: 30px; */
   /* background-color: lightgreen; */
 }
 
@@ -32,6 +32,10 @@ a, i {
   display: flex;
 }
 
+.align {
+  align-items: center;
+}
+
 .f-wrap {
   flex-wrap: wrap;
 }
@@ -48,10 +52,17 @@ header .menu-top {
   background-color: black;
 }
 
-.menu-top a {
+.menu-top ul {
   position: absolute;
   top: 5px;
   right: 0;
+}
+
+.menu-top li {
+  margin: 0px 5px 0 5px;
+  padding: 3px 4px;
+  background-color: #4A4A4A;
+  border-radius: 5px;
 }
 
 /*  MAIN  */
@@ -72,7 +83,7 @@ main {
   left: 0;
   padding: 2px 3px;
   color: white;
-  background-color: rgba(0,0,0,.3);
+  background-color: rgba(0,0,0,.5);
 
 }
 
@@ -80,4 +91,19 @@ main {
 footer .menu-bot {
   height: 100px;
   background-color: #222222;
+  color: white;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.menu-bot > div {
+  cursor: pointer;
+}
+
+.side-menu > div {
+  padding: 0 10px 0 5px;
+}
+
+.menu > div {
+  padding: 0 10px 0 5px;
 }
