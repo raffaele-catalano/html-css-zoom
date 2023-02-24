@@ -68,7 +68,7 @@ header .menu-top {
 main {
   height: calc(100vh - 170px);
   background-color: black;
-  overflow: auto;
+  overflow-y: auto;
 }
 
 .viewer{
@@ -82,26 +82,32 @@ main {
   object-fit: cover;
   width: 100%;
   height: 100%;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .viewer-info {
   position: absolute;
-  bottom: 0;
+  bottom: 2px;
   left: 0;
+  font-weight: bold;
   padding: 2px 5px;
   color: white;
   background-color: rgba(31, 31, 31, 0.7);
-  border-radius: 0 5px 0 0;
+  border-radius: 5px;
 }
 
 .viewer-info:hover{
   background-color: rgba(31, 31, 31, 0.4);
-  padding: 3px 7px;
-  font-weight: bold;
+  text-decoration: underline;
 }
 
 .viewer-info > span > i:active {
   color: #4BC800;
+}
+
+.viewer-info > span > i:hover {
+  cursor: pointer;
 }
 
 /*  FOOTER  */
@@ -117,17 +123,21 @@ footer .menu-bot {
   cursor: pointer;
 }
 
-.menu-bot > div > p {
+.side-menu > div > p {
   font-size: 1rem;
 }
 
+.side-menu > div {
+  padding: 0 10px 0 5px;
+}
+
 .side-menu > div > i:not(.small-txt) {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   padding-top: 10px;
 }
 
 .menu > div > i:not(.small-txt) {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   padding-top: 10px;
 }
 
@@ -139,9 +149,10 @@ footer .menu-bot {
   color: crimson;
 }
 
-.side-menu > div {
-  padding: 0 10px 0 5px;
+.menu > div > p {
+  font-size: 1rem;
 }
+
 
 .menu > div {
   padding: 0 15px 0 5px;
