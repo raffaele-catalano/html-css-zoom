@@ -59,7 +59,7 @@ header .menu-top {
 
 .menu-top li {
   margin: 0px 5px 0 5px;
-  padding: 3px 4px;
+  padding: 7px 5px;
   background-color: #4A4A4A;
   border-radius: 5px;
 }
@@ -160,7 +160,7 @@ footer .menu-bot {
   font-weight: bold;
   color: crimson;
   background-color: #4A4A4A;
-  padding: 20px;
+  padding: 30px;
   border-radius: 8px;
 }
 
