@@ -100,7 +100,7 @@ main {
   font-weight: bold;
 }
 
-.viewer-info > span > i:hover {
+.viewer-info > span > i:active {
   color: #4BC800;
 }
 
