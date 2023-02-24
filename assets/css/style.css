@@ -131,7 +131,7 @@ footer .menu-bot {
   padding-top: 10px;
 }
 
-.menu > div > i:hover{
+.menu > div > i:hover:not(.green-txt){
   color: crimson;
 }
 
