@@ -88,10 +88,20 @@ main {
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 2px 3px;
+  padding: 2px 5px;
   color: white;
-  background-color: rgba(31, 31, 31, 0.5);
+  background-color: rgba(31, 31, 31, 0.7);
+  border-radius: 0 5px 0 0;
+}
 
+.viewer-info:hover{
+  background-color: rgba(31, 31, 31, 0.4);
+  padding: 3px 7px;
+  font-weight: bold;
+}
+
+.viewer-info > span > i:hover {
+  color: #4BC800;
 }
 
 /*  FOOTER  */
@@ -121,6 +131,14 @@ footer .menu-bot {
   padding-top: 10px;
 }
 
+.menu > div > i:hover{
+  color: crimson;
+}
+
+.side-menu > div > i:hover{
+  color: crimson;
+}
+
 .side-menu > div {
   padding: 0 10px 0 5px;
 }
@@ -144,6 +162,11 @@ footer .menu-bot {
   background-color: #4A4A4A;
   padding: 20px;
   border-radius: 8px;
+}
+
+.end-call p:hover {
+  color: white;
+  background-color: crimson;
 }
 
 .small-txt {
