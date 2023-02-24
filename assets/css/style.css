@@ -131,11 +131,11 @@ footer .menu-bot {
   padding-top: 10px;
 }
 
-.menu > div > i:hover:not(.green-txt){
+.menu > div > i:active:not(.green-txt){
   color: crimson;
 }
 
-.side-menu > div > i:hover{
+.side-menu > div > i:active{
   color: crimson;
 }
 
@@ -164,10 +164,11 @@ footer .menu-bot {
   border-radius: 8px;
 }
 
-.end-call p:hover {
+.end-call p:active {
   color: white;
   background-color: crimson;
 }
+
 
 .small-txt {
   font-size: 0.7rem;
